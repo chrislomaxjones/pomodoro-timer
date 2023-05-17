@@ -1,0 +1,57 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tomato-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.mask {
+  width: 300px;
+  height: 300px;
+}
+
+.tomato {
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 6em;
+  line-height: 1.1;
+}
+
+.countdown {
+}
+
+.countdown h2 {
+  font-size: 8em;
+  font-weight: 800;
+}
+
+.explainer {
+  font-size: 3em;
+}
+
+.card {
+  margin: 2em 0em;
+}
+
+.pause-button {
+  padding: 0.5em 1em;
+  font-size: 2em;
+  background-color: black;
+  border: 0;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
